@@ -45,7 +45,7 @@ jobs:
         path: metrics.json
 
     - name: Setup CML
-      uses: iterative/setup-cml@v1
+      uses: iterative/setup-cml@v2
       
     - name: Generate performance report
       env:

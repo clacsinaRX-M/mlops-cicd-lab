@@ -49,7 +49,7 @@ jobs:
       
     - name: Generate performance report
       env:
-        REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: |
         # Create report with metrics
         echo "## Model Performance Report" > report.md
